@@ -1,0 +1,90 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container, .main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    background-color: lightgrey;
+    display: flex;
+    padding: 20px 0px;
+}
+
+.title {
+    justify-content: stretch;
+}
+
+input {
+    width: 300px;
+    border: 2px black solid;
+}
+
+#login-button {
+    width: 100px;
+    background-color: rgb(62, 62, 218);
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+.entry, .add-def-box {
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+.word-left {
+    flex: 1;
+    text-align: center;
+}
+
+.word-left > div {
+    margin: 5px;
+}
+
+.like-button {
+    background-color: gold;
+}
+
+.word-right {
+    flex: 3;
+    padding: 35px;
+}
+
+.add-def-box {
+    display: block;
+    padding: 20px;
+}
+
+button {
+    border-color: black;
+    box-shadow: 2px 2px black;
+    padding: 2px 5px;
+}
+
+.add-def-button button {
+    background-color: rgb(99, 211, 114);
+    padding: 3px 20px;
+    margin-top: 15px;
+}
+
+.noun, .plural span {
+    font-style: italic;
+}
