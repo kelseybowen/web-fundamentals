@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 2%;
+}
+
+h1, .content, .contact {
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    background-color: black;
+    color: aqua;
+    text-align: left;
+    padding: 5px 15px;
+    font-size: xx-large;
+}
+
+#my {
+    color: white;
+}
+
+.content {
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+}
+
+.contact {
+    background-color: lightskyblue;
+    text-align: right;
+    text-decoration: underline;
+    font-size: larger;
+}

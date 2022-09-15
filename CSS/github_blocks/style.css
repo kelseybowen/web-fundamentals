@@ -1,0 +1,40 @@
+.container {
+    background-color: #FCF8E8;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#box-1 {
+    background-color: #CEE5D0;
+}
+
+#box-2 {
+    background-color: #ECB390;
+    justify-content: space-evenly;
+}
+
+#box-3 {
+    background-color: #94B49F;
+}
+
+.octocat {
+    height: 200px;
+    background-color: white;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

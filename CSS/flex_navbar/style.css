@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(38, 46, 49);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 55px;
+}
+
+h1.nav-title {
+    margin-left: 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-right: 20px;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    height: 28px;
+    width: 75px;
+    border-color: black;
+    box-shadow: 3px 3px black;
+}

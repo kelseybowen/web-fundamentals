@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ---------------------------------------- HEADER ------------------------------------------- */
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 140px;
+}
+
+#sign-out {
+    margin: 10px 145px 10px 150px;
+    padding: 2px 8px;
+    background-color: rgb(19, 158, 158);
+    color: white;
+    border-color: black;
+}
+
+/* -------------------------------------- MAIN CONTENT ----------------------------------------- */
+
+.main {
+    display: flex;
+    margin: 0px 15%;
+}
+
+.col-1 {
+    flex: 2;
+    justify-content: space-around;
+}
+
+.bio, .edu, .conn-req, .your-conn, #view-more {
+    border-style: solid;
+    border-color: lightgrey;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic {
+    background-color: rgb(19, 158, 158);
+    padding-top: 20px;
+    padding-left: 15px;
+    height: 75px;
+}
+
+#prof_pic {
+    margin: 20px;
+    height: 100px;
+}
+
+.bio h1 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.bio-icon {
+    float: left;
+    padding: 10px 10px 10px 30px;
+    height: 20px;
+    max-width: 100%;
+}
+
+.loc p {
+    padding-top: 12px;
+}
+
+.description {
+    padding: 10px 30px;
+}
+
+.edit a {
+    float: left;
+    padding-top: 10px;
+}
+
+.edu .heading, .conn-req .heading, .your-conn .heading {
+    background-color: rgb(46, 43, 43);
+    color: white;
+    padding: 10px 20px;
+}
+
+.edu h3 {
+    padding-top: 5px;
+}
+
+.edu h3, .edu p {
+    padding-left: 20px;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.ad {
+    align-content: center;
+    flex: 1;
+}
+
+.a-icon, .d-icon {
+    height: 25px;
+    width: auto;
+    margin: 0px 3px;
+    /* margin: 5px; */
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+#view-more {
+    margin-top: -23px;
+    padding: 7px;
+}
